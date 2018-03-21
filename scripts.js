@@ -11,6 +11,8 @@ console.log(textAfter);
 
 console.log(textAfter.length/2);
 
-var textSliced = text.slice(0, 72);
+var halfTextAfter = (textAfter.length)/2;
+
+var textSliced = text.slice(0, halfTextAfter);
 
 console.log(textSliced);
